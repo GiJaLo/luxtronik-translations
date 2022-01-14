@@ -1,3 +1,13 @@
+<style>
+table:nth-of-type(1) {
+    display:table;
+    width:100%;
+}
+table:nth-of-type(1) th:nth-of-type(2) {
+    width:10%;
+}
+</style>
+
 | ID  | Identify                            | Description                                                    | Conversion                                                                                                                                                                   | Unit                 | Englisch                                                        | Dutch                                                                |
 |-----|-------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|-----------------------------------------------------------------|----------------------------------------------------------------------|
 | 10  | ID_WEB_Temperatur_TVL               | Vorlauftemperatur Heizkreis                                    | value / 10                                                                                                                                                                   | °C                   | Flow temperature heating circuit                                | Aanvoertemperatuur verwarmingscircuit                                |
